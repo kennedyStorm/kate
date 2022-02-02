@@ -1,0 +1,70 @@
+.header{
+    background-color: blueviolet;
+    display: flex;
+    border: solid
+
+}
+h1{
+    color: rgb(12, 12, 12);
+    border: solid;
+    margin: 30px;
+    padding-left: 30px;
+    
+}
+body{
+    background-color: rgb(119, 189, 235);
+}
+.img-class{
+    height: 500px;
+    width: 500px;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.menu{
+    border: solid;
+    margin: 30px;
+}
+.menu a{
+    margin-left: 20px;
+
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+
+}
+.item:hover p{
+    opacity: 1;
+
+}
+.item:hover img{
+    opacity: 0.33;
+
+}
+a:link{
+    color:white;
+
+}
+a:visited{
+    color:rgb(206, 36, 14);
+}
+a:hover{
+    color:rgb(23, 161, 155);
+}
+a:active{
+    color:yellow;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
